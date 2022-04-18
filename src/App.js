@@ -1,7 +1,17 @@
-function App() {
+import { AboutMe } from "./pages/AboutMe";
+import { Courses } from "./pages/Courses";
+import { Project } from "./pages/Projects";
+import { MySkills } from "./pages/Skills";
+import { GlobalStyle } from "./styles/global";
+
+export function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <AboutMe/>
+      <MySkills/>
+      <Project/>
+      <Courses/>
+      <GlobalStyle/>
+    </>
   );
 }
-
-export default App;
