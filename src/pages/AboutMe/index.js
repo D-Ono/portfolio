@@ -1,6 +1,5 @@
-import { Container, TextDiv, ImageDiv } from "./style";
+import { Button, Container, TextDiv, ImageDiv } from "./style";
 import { Title, TitleWrapper } from '../../components/Title';
-import { SubTitle } from "../../components/SubTitle";
 import perfilPhoto from "../../assets/perfilPhoto.jpeg";
 
 export const AboutMe = () => {
@@ -11,16 +10,24 @@ export const AboutMe = () => {
                 <TitleWrapper> &lt;<Title>David</Title> Ono/&gt;</TitleWrapper>
             </ImageDiv>
             <TextDiv>
-                <SubTitle>SOBRE MIM</SubTitle>
-                <h2>
-                    Nome: David Hiromi Ono <br/>
-                    Idade: 22 Anos <br/>
-                    Área de Interesse: Desenvolvimento Web <br/>
-                    Curso: 4º Ano Ciência da Computação<br/>
-                    Faculdade: FCT - UNESP <br/>
-                    Trabalho Atual: Estagiário InovaLab - Inova Prudente. <br/>
-                    Cidade: Presidente Prudente/SP <br/>
-                </h2>
+                <h4>
+                    <span>Nome:</span> David Hiromi Ono <br/>
+                    <span>Idade:</span> 22 Anos <br/>
+                    <span>Área de Interesse:</span> Desenvolvimento Web - Front End <br/>
+                    <span>Curso:</span> 4º Ano Ciência da Computação<br/>
+                    <span>Faculdade:</span> FCT - UNESP <br/>
+                    <span>Trabalho Atual:</span> Estagiário InovaLab - Inova Prudente. <br/>
+                    <span>Cidade:</span> Presidente Prudente/SP <br/>
+                </h4>
+                <Button>
+                    <a 
+                        href="https://drive.google.com/drive/folders/1-nzVrA3LxYVYzsTkkji4RfSiDayZaSm5?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                    >   
+                        Currículo
+                    </a>
+                </Button>
             </TextDiv>
         </Container>
     )

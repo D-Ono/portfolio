@@ -52,7 +52,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   html, body, #root {
      font-family: 'Montserrat', sans-serif;
-     width: 100vw;
+     width: 98vw;
      height: 100vh;
   }
   button {
